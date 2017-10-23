@@ -39,7 +39,7 @@
     "url": "https://github.com/papabear/sails-mongo/issues"
   },
   "homepage": "https://github.com/papabear/sails-mongo#readme",
-  "main": "./lib",
+  "main": "./lib/adapter.js",
   "directories": {
     "test": "test"
   },
