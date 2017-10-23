@@ -1,0 +1,53 @@
+{
+  "dependencies": {
+    "@sailshq/lodash": "^3.10.2",
+    "async": "2.0.1",
+    "mongodb": "2.2.25",
+    "validator": "4.5.1",
+    "waterline-cursor": "0.0.7",
+    "waterline-errors": "0.10.1"
+  },
+  "description": "Mongo DB adapter for Sails.js",
+  "devDependencies": {
+    "captains-log": "^1.0.2",
+    "mocha": "3.0.2",
+    "waterline-adapter-tests": "~0.12.1"
+  },
+  "name": "sails-mongo",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/papabear/sails-mongo.git"
+  },
+  "scripts": {
+    "docker": "docker-compose run adapter bash",
+    "test": "make test"
+  },
+  "version": "0.12.3",
+  "waterlineAdapter": {
+    "waterlineVersion": "~0.10.0",
+    "interfaces": [
+      "semantic",
+      "queryable",
+      "associations"
+    ],
+    "features": [
+      "cross-adapter"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/papabear/sails-mongo/issues"
+  },
+  "homepage": "https://github.com/papabear/sails-mongo#readme",
+  "main": "./lib",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "mongodb",
+    "atlas",
+    "sails"
+  ],
+  "author": "Jeremy Swink",
+  "license": "MIT"
+}
